@@ -1,0 +1,14 @@
+spring web
+lombok
+spring data
+spring boot devtools
+configuration processor
+postgres driver
+h2 driver
+
+
+---
+
+lombok
+config lombok
+lombok.nonNull.exceptionType=IllegalArgumentException
