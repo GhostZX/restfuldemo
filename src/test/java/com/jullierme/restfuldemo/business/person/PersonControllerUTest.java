@@ -105,11 +105,7 @@ class PersonControllerUTest {
                 .andExpect(jsonPath("$.age", is(newAge)));
     }
 
-    static String toJson(final Object obj) {
-        try {
-            return new ObjectMapper().writeValueAsString(obj);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+    static String toJson(final Object obj) throws Exception {
+        return new ObjectMapper().writeValueAsString(obj);
     }
 }

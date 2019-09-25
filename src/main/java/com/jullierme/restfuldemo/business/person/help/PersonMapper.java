@@ -10,7 +10,5 @@ public interface PersonMapper {
 
     Person toPerson(PersonRequest request);
 
-//    PersonRequest toRequest(Person person);
-
-   PersonResponse toResponse(Person person);
+    PersonResponse toResponse(Person person);
 }

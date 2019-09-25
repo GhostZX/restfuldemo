@@ -17,7 +17,10 @@ public class PersonServiceImpl implements CreatePersonService,
 
     @Override
     public Person create(@NonNull String name, @NonNull Integer age) {
-        Person entity = new Person(name, age);
+        Person entity = Person.builder()
+                .name(name)
+                .age(age)
+                .build();
 
         return personRepository.save(entity);
     }

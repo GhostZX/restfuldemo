@@ -1,7 +1,6 @@
 package com.jullierme.restfuldemo.business.person.help;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
