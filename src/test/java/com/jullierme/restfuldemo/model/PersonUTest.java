@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@DisplayName("Test suite of the class Person")
+@DisplayName("Person class unit test suite")
 public class PersonUTest {
 
     @Test
